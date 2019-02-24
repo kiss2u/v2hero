@@ -1,24 +1,19 @@
-# v2hero  [![Build Status](https://travis-ci.org/onplus/v2hero.svg?branch=core-3.1)](https://travis-ci.org/onplus/v2hero)
-本项目是一个利用Travis-CI部署Docker到Heroku 的学习示例。
+# v2hero project 
 
-如果为您的学习提供了帮助，欢迎给一个Star ^_^
+Travis-CI将v2ray部署至Heroku，已更新v2ray-core至最新v4.17.0
 
-* 部署方法
-   https://github.com/onplus/v2hero/wiki/Deploy-V2ray-To-Heroku
+参考onplus的v2hero项目，项目地址：https://github.com/onplus/v2hero
 
-## 建议使用heroku.yml部署  https://github.com/wangyi2005/v2ray-heroku
- 
-* 提问&建议
-   https://github.com/onplus/v2hero/issues
-   发起issue前请尽量先使用文档和搜索
+本项目仅修改了Dockerfile部分字段以适应最新版本。
 
-* 相关项目
-   https://wsss.herokuapp.com/
+此外，TravisCI 中输入以下三项内容时注意特殊字符需用用反斜杠 \ 转义，包括‘@’，以及‘.’
 
-* 实现参考 
-   - https://github.com/v2ray/v2ray-core
-   - https://github.com/wangyi2005/v2ray
-   - Heroku https://devcenter.heroku.com/articles/container-registry-and-runtime
-   - Travis-CI https://docs.travis-ci.com/user/docker
+·HEROKU_APPNAME
+
+·HEROKU_EMAIL
+
+·HEROKU_APIKEY
+
+具体步骤参考：https://github.com/onplus/v2hero/wiki/Deploy-V2ray-To-Heroku
 
 
